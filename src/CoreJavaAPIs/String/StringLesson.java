@@ -10,5 +10,6 @@ public class StringLesson {
 
         StringBuilder sb = new StringBuilder("abcdef");
         sb.deleteCharAt(5);
+
     }
 }
