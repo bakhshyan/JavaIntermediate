@@ -1,6 +1,4 @@
-package methodsandecapsulation.lambdas.exampl3;
-
-import javax.accessibility.AccessibleEditableText;
+package methodsandecapsulation.lambdas.example3;
 
 public class Main {
 

@@ -1,14 +1,14 @@
-package methodsandecapsulation.lambdas.exampl3.book;
+package methodsandecapsulation.lambdas.example3.tetr;
 
-public class Book {
-
-    public interface OpenCloseListener {
-        void onOpen(Book book);
-        void onClose(Book book);
-    }
+public class Tetr {
 
     public interface TertelListener {
-        void onTertel(Book book);
+        void onTertel(Tetr tetr);
+    }
+
+    public interface OpenCloseListener {
+        void onOpen(Tetr tetr);
+        void onClose(Tetr tetr);
     }
 
 

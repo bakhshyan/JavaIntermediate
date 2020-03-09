@@ -1,10 +1,8 @@
 package methodsandecapsulation.lambdas.example6;
 
-import javax.swing.text.View;
-
 public class LambdaExample {
     static String other1 = "Hello";
-    final static String a;
+    static String a;
 
 
     public LambdaExample() {
@@ -13,11 +11,10 @@ public class LambdaExample {
 
     public static void main(String[] args) {
 
-        other1 = "2";
-
-        MyInterface myInterface = text -> System.out.println(a + " " + text);
-        other1 = "1";
-        myInterface.printIt("world");
+        MyInterfac1 myInterfac1 = text -> {
+            System.out.println(other1 + " " + text);
+        };
+        myInterfac1.printIt("world");
 
     }
 
