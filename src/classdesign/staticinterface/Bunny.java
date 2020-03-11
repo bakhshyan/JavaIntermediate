@@ -1,4 +1,4 @@
-package classdesign.staticinterface.example1;
+package classdesign.staticinterface;
 
 public class Bunny implements Hop {
 

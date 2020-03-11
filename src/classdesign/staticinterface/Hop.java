@@ -1,4 +1,4 @@
-package classdesign.staticinterface.example1;
+package classdesign.staticinterface;
 
 public interface Hop {
     static int getJumpHeight() {
