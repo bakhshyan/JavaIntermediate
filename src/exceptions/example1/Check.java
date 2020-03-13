@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.example1;
 
 public class Check {
     void explore() {
